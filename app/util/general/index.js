@@ -41,6 +41,12 @@ export function findRouteNameFromNavigatorState(routes) {
 
   return name;
 }
+/**
+ * Capitalizes the first character of a string
+ *
+ * @param {string} str - String to capitalize
+ * @returns {string | false} String with its first character uppercased, or false if str is empty or not provided
+ */
 export const capitalize = (str) =>
   (str && str.charAt(0).toUpperCase() + str.slice(1)) || false;
 
