@@ -50,7 +50,7 @@ describe('specificActionERC20TransferBatchBuilder', () => {
     expect(caveat.terms.slice(endOfTokenAddress, endOfRecipient)).toStrictEqual(
       testRecipient.slice(2),
     );
-    // the the zero-padded amount is encoded from endOfRecipient to endOfRecipient + 64
+    // the zero-padded amount is encoded from endOfRecipient to endOfRecipient + 64
     const endOfAmount = endOfRecipient + 64;
     const endOfFirstTarget = endOfAmount + 40; // excludes 2 leading 0x characters
     expect(caveat.terms.slice(endOfAmount, endOfFirstTarget)).toStrictEqual(

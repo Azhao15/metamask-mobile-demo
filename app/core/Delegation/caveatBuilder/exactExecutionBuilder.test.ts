@@ -35,7 +35,7 @@ describe('exactExecutionBuilder', () => {
     expect(caveat.args).toBe('0x');
     expect(caveat.terms).toBeDefined();
     expect(caveat.terms.slice(0, 42)).toStrictEqual(testTo);
-    // the the zero-padded value is encoded from 42 to 42 + 64
+    // the zero-padded value is encoded from 42 to 42 + 64
     expect(caveat.terms.slice(42 + 64)).toStrictEqual(testData.slice(2)); // 0x removed from the appended data
   });
 

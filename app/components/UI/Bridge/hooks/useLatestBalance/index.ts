@@ -80,7 +80,7 @@ const getTokenIdentity = (token?: {
  * @param token.decimals - The token decimals.
  * @param token.chainId - The chain ID to be used for fetching the balance.
  * @param token.balance - The cached token balance as a non-atomic decimal string, e.g. "1.23456".
- * @returns An object containing the the balance as a non-atomic decimal string and the atomic balance as a BigNumber.
+ * @returns An object containing the balance as a non-atomic decimal string and the atomic balance as a BigNumber.
  */
 export const useLatestBalance = (token: {
   address?: string;

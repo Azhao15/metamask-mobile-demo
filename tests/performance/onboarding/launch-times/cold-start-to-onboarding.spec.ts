@@ -14,7 +14,7 @@ test.describe(`${Performance} ${PerformanceOnboarding} ${PerformanceLaunch}`, ()
     { tag: '@metamask-mobile-platform' },
     async ({ currentDeviceDetails, driver, performanceTracker }, testInfo) => {
       const timer1 = new TimerHelper(
-        'Time since the the app is installed, until onboarding screen appears',
+        'Time since the app is installed, until onboarding screen appears',
         { ios: 3000, android: 4000 },
         currentDeviceDetails.platform,
       );

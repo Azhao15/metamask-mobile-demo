@@ -53,7 +53,7 @@ describe('formatMenuItemDate', () => {
     });
 
     // assert almost a day ago, but was still yesterday
-    // E.g. if Today way 09:40AM, but date to test was 23 hours ago (yesterday at 10:40AM), we still want to to show yesterday
+    // E.g. if Today way 09:40AM, but date to test was 23 hours ago (yesterday at 10:40AM), we still want to show yesterday
     assertYesterday((testDate) => {
       testDate.setUTCDate(testDate.getUTCDate() - 1);
       testDate.setUTCHours(testDate.getUTCHours() + 1);
