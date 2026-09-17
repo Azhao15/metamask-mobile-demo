@@ -80,13 +80,13 @@ export function lastSelectedAccountAddressByNonEvmNetworkChainId(
   chainId: CaipChainId,
 ): string | undefined {
   const { AccountsController } = Engine.context;
-  // TODO: Add teh logic if there is none last selected account what to do
+  // TODO: Add the logic if there is none last selected account what to do
   return AccountsController.getSelectedMultichainAccount(chainId)?.address;
 }
 
 export function lastSelectedAccountAddressInEvmNetwork(): string | undefined {
   const { AccountsController } = Engine.context;
-  // TODO: Add teh logic if there is none last selected account what to do
+  // TODO: Add the logic if there is none last selected account what to do
   return AccountsController.getSelectedAccount()?.address;
 }
 
