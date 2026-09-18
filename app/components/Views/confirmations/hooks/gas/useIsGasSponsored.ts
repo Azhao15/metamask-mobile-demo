@@ -5,7 +5,7 @@ import { useIsGaslessSupported } from './useIsGaslessSupported';
 
 /**
  * Determines if current transaction is gas sponsored based on:
- * - Is Sponsorship enabled throught feature flags for this network.
+ * - Is Sponsorship enabled through feature flags for this network.
  * - Is Gasless feature enabled for current transaction and connected wallet (not HW).
  */
 export const useIsGasSponsored = (): boolean => {

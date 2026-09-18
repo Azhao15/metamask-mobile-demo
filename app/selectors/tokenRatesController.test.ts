@@ -186,7 +186,7 @@ describe('selectSingleTokenPriceMarketData', () => {
     const result3 = selectSingleTokenPriceMarketData(mockState, '0x1', '0x111');
     const result4 = selectSingleTokenPriceMarketData(mockState, '0x2', '0x111');
 
-    // Assert same reference for selectors that used same paramters
+    // Assert same reference for selectors that used same parameters
     expect(result1).toBe(result3);
     expect(result2).toBe(result4);
   });
