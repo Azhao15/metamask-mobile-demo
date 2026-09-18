@@ -2,7 +2,7 @@ import Device from '../device';
 import AUTHENTICATION_TYPE from '../../constants/userProperties';
 
 /**
- * Determines the passcode type used in locales to dispaly the platform specific text
+ * Determines the passcode type used in locales to display the platform specific text
  * @param type - AUTHENTICATION_TYPE
  * @returns String of passcodeType for UI display of components
  */

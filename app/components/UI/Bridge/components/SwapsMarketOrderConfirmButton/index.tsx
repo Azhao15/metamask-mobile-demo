@@ -156,7 +156,7 @@ export const SwapsMarketOrderConfirmButton = ({
     } catch {
       // We reach this state when calcTokenValue is unable to calculate the value.
       // This should not happen under normal circumstances, but we implement this
-      // guard to defend against unkown conditions.
+      // guard to defend against unknown conditions.
       return nonZeroInputAmount;
     }
   }, [sourceAmount, sourceToken?.decimals]);

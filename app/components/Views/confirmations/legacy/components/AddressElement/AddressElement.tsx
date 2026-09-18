@@ -27,7 +27,7 @@ import {
 import { Hex } from '@metamask/utils';
 import { useSelector } from 'react-redux';
 
-// Internal dependecies
+// Internal dependencies
 import styleSheet from './AddressElement.styles';
 import { AddressElementProps } from './AddressElement.types';
 import { selectNetworkConfigurations } from '../../../../../../selectors/networkController';

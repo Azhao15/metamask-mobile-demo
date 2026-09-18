@@ -185,7 +185,7 @@ export const SnapInterfaceContextProvider: FunctionComponent<
 };
 
 /**
- * The utility hook to consume the Snap inteface context.
+ * The utility hook to consume the Snap interface context.
  *
  * @returns The snap interface context.
  */
